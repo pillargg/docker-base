@@ -1,4 +1,4 @@
-name: Push FFMPEG Base Image
+name: Push OpenCV Python Base Image
 
 on:
   push:
@@ -14,7 +14,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: ffmpeg-lambda-base
+  IMAGE_NAME: opencv-python-base
 
 jobs:
   # Push image to GitHub Packages.
